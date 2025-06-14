@@ -24,7 +24,7 @@ class PersonalityModel(nn.Module):
     
 # --- Load Model ---
 model = PersonalityModel()
-model.load_state_dict(torch.load("E:\computer vision\personality_model.pt"))
+model.load_state_dict(torch.load("E:\PersonalityPulse\Model\personality_model.pt"))
 model.eval()
 
 # --- Label Encoder Setup ---
@@ -54,3 +54,9 @@ if st.button("Predict Personality"):
         pred_idx = torch.argmax(outputs, dim=1).item()
         personality = label_encoder.inverse_transform([pred_idx])[0]
     st.success(f"### 🎯 Predicted Personality: {personality}")
+
+
+
+
+
+#  Run this command in Terminal  " streamlit run personality_dashboard.py "
