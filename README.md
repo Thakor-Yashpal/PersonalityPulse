@@ -19,6 +19,10 @@ This Kaggle dataset includes personality factors like:
 - Self-esteem
 - Social support
 
+## 🎥 Output Video
+
+[*(Replace with actual link to video output or upload `.mp4` to GitHub repo if small enough)*](https://github.com/user-attachments/assets/8b243889-e030-4859-b9c7-a0bdb42ec6d6)
+
 📎 Source: [Kaggle Dataset](https://www.kaggle.com/datasets/shalmamuji/personality-prediction-data-introvert-extrovert)
 
 ## 🧠 Model Architecture
